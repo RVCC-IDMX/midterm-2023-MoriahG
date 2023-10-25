@@ -22,13 +22,19 @@ header {
     
 }
 
+header #side-by-side {
+    display: grid;
+    grid-template-columns: .7fr 1fr;
+}
+
 header img {
     width: 200px;
     border-radius: 50%;
     height: 200px;
     border: 5px solid rgb(25, 25, 25);
-    float:left;
-    margin-left: 22%;
+    /* fix this with grid margins? */
+    margin-right: 5%;
+    margin-left: 55%;
     margin-top: 2rem;
 }
 
@@ -36,12 +42,12 @@ header h1 {
     font-size: 34pt;
     margin-bottom: 0;
     padding-top: .5rem;
-    margin-left: 40%;
+    /*margin-left: 40%;*/
     margin-right: 20%;
 }
 
 header h2 {
-    margin-left: 40%;
+    /*margin-left: 40%;*/
     margin-right: 20%;
     margin-top: 0;
     color: rgb(118, 0, 0);
@@ -49,7 +55,7 @@ header h2 {
 
 #aboutme {
     text-align: left;
-    margin-left: 40%;
+    /*margin-left: 40%;*/
     margin-right: 20%;
     padding-bottom: 2rem;
 }
